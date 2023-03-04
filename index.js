@@ -3,6 +3,10 @@ const axios = require('axios');
 const app = express();
 const PORT = process.env.PORT || 8081;
 
+app.get("/shiva", async (req,res) => {
+  res.json({username : "shiva", password : 12345})
+} )
+
 app.get('/', async (req, res) => {
   const username = req.query.username || 'shivakumar7799';
   try {
