@@ -1,4 +1,4 @@
-const apiUrl = "https://shivakumar-backend-project.onrender.com"
+const apiUrl = "https://shivakumar-backend-project.onrender.com/shiva"
 
 
 const apiFetching = async () => {
