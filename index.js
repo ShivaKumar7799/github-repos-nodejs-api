@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 8081;
 
 app.get("/shiva", async (req,res) => {
-  return res.json({username : "shiva", password : 12345})
+  return res.json({username : "shiva", password : 12345,"employed" : false })
 } )
 
 app.get('/', async (req, res) => {
